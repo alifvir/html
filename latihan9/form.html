@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <title>html form</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- label berfungsi untuk memberitahu sistem bahwa input text milik si username, for dan id harus sama -->
+      <label for="username">username :</label>
+      <input type="text" id="username" />
+      <br />
+      <!-- type password akan menyembunyikan tampilan didepannya -->
+      <label for="password">password :</label>
+      <input type="password" id="password" />
+      <br />
+      <!-- type radio merupakan semacam select box tapi hanya 2 saja pilihanya, agar tidak dapat dipilih dua2nya harus dikasih name = jenis kelamin
+        agar system membaca bahwa dua type radio tsb merupakan name yg sama maka hanya dapat dipilih satu saja -->
+      <input type="radio" name="jeniskelamin" id="pria" /><label for="pria">pria</label> <input type="radio" name="jeniskelamin" id="wanita" /> <label for="wanita">wanita</label>
+      <br />
+      <input type="checkbox" id="lari" /><label for="lari">lari</label> <input type="checkbox" id="renang" /><label for="renang">renang</label> <input type="checkbox" id="membaca" /><label for="membaca">membaca</label>
+      <br />
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <br />
+      <!-- text select untuk memilih kota atau kecamatan biasnaya, didalam select harus ada optionya -->
+      <select name="" id="">
+        <option value="">bandung</option>
+        <option value="">jogja</option>
+        <option value="">jakarta</option>
+      </select>
+      <br />
+      <!-- table button untuk submit, value untuk mengganti kalimatnya -->
+      <button type="submit">kirim</button>
+    </form>
+  </body>
+</html>
